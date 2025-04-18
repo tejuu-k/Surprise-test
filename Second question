@@ -1,1 +1,19 @@
-
+# Print whether the sum of the first, third, third-last, last digits of a 10 digit number is divisble by 3 or not
+s=0
+n=int(input("Enter a number:"))
+a=n//1000000000
+print(a)
+x=n//10000000
+b=x%10
+y=n%1000
+c=y//100
+d=n%10
+print(b)
+print(c)
+print(d)
+s=a+b+c+d
+print(s)
+if s%3==0:
+    print("CODE SUCCESS")
+else:
+    print("FAILED")
