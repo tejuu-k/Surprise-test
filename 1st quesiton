@@ -1,3 +1,5 @@
+# Who got more points
+
 harry=int(input())
 ron=int(input())
 hermoine=int(input())
